@@ -7,7 +7,7 @@ Projeto final para conclusão do módulo 1.
 
 O objetivo aqui é criar um sistema de apoio ao diagnóstico médico, utilizando aprendizado de máquina (Machine Learning) para prever se um tumor é maligno ou benigno, com base em dados reais do dataset **Breast Cancer Wisconsin**.
 
-### Etapas da Solução: ####
+#### Etapas da Solução: ####
 1. Exploração e análise de dados;
 2. Pré-processamento (limpeza e transformação);
 3. Treinamento de múltiplos modelos;
@@ -52,4 +52,5 @@ $ docker run -p 8888:8888 -v %cd%:/app tech-challenge-fiap
 
 ## Créditos ##
 - Dataset: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
+- Emojis Utilizados: https://pt.piliapp.com/emoji/list/
 - Autor: JOSE AIRTON MOREIRA FILHO
