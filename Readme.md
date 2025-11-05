@@ -1,8 +1,8 @@
-# Tech Challenge - Módulo 1  
+# Tech Challenge - Módulo 1 #
 **Autor:** José Airton Moreira Filho  
 **Projeto:** Sistema de Diagnóstico de Câncer de Mama com Machine Learning
 
-## Descrição do Projeto
+## 📄 Descrição do Projeto ##
 Projeto final para conclusão do módulo 1.
 
 O objetivo aqui é criar um sistema de apoio ao diagnóstico médico, utilizando aprendizado de máquina (Machine Learning) para prever se um tumor é maligno ou benigno, com base em dados reais do dataset **Breast Cancer Wisconsin**.
@@ -14,7 +14,7 @@ O objetivo aqui é criar um sistema de apoio ao diagnóstico médico, utilizando
 4. Avaliação com métricas (Accuracy, Recall, F1-score);
 5. Interpretação dos resultados com *Feature Importance* e SHAP.
 
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto ##
 - data/
     - data.csv -> Dataset
 - notebooks/
@@ -23,7 +23,15 @@ O objetivo aqui é criar um sistema de apoio ao diagnóstico médico, utilizando
 - Dockerfile
 - Readme.md
 
-## Instalação e Execução (sem Docker)
+## 🐋 Instalação e Execução (com Docker) ##
+```
+$ docker build -t tech-challenge-fiap .
+$ docker run -p 8888:8888 -v C:\Sistemas\FIAP\tech-challenge-001:/app tech-challenge-fiap
+```
+#### Acesse no navegador: 
+> http://localhost:8888/notebooks/notebooks/diagnostico_cancer_mama.ipynb
+
+## 🖥️ Instalação e Execução (sem Docker) ##
 1. Certifique-se de ter o Python 3.10+ instalado
 2. Crie um ambiente virtual e ative-o
 ```
@@ -41,16 +49,8 @@ $ jupyter notebook
 5. Abra o arquivo
 > notebooks/diagnostico_cancer_mama.ipynb
 
-## Execução via Docker ##
-#### Execute via linha de comando:
-```
-$ docker build -t tech-challenge-fiap .
-$ docker run -p 8888:8888 -v %cd%:/app tech-challenge-fiap
-```
-#### Acesse no navegador: 
-> http://localhost:8888
 
-## Créditos ##
+## 🙋‍♂️ Créditos ##
 - Dataset: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
 - Emojis Utilizados: https://pt.piliapp.com/emoji/list/
 - Autor: JOSE AIRTON MOREIRA FILHO
